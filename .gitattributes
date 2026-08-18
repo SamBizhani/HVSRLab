@@ -1,0 +1,13 @@
+# Normalise to LF in the repository; check out native on Windows.
+* text=auto
+
+*.py    text eol=lf
+*.md    text eol=lf
+LICENSE text eol=lf
+
+# Never touch binary formats.
+*.png   binary
+*.pdf   binary
+*.npz   binary
+*.mseed binary
+*.miniseed binary

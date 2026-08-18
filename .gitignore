@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------------------
+# Survey data never belongs in this repository.
+#
+# Projects live in ../HVSRLab_Projects by default, which is outside the
+# repository root and so is already invisible to git. These rules cover the
+# case where a project has been created inside the application directory.
+# ---------------------------------------------------------------------------
+HVSRLab_Projects/
+*_Projects/
+project.json
+results/
+figures/
+exports/
+cache/
+logs/
+*.npz
+*.miniseed
+*.mseed
+*.saf
+*.sac
+
+# Station and borehole control — coordinates are survey data.
+*station*.txt
+*_wells.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Notebooks and editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.spyproject/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
