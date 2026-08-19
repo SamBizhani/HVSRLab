@@ -15,6 +15,10 @@ cd path/to/HVSRLab && python run.py
 python run.py --check
 ```
 
+**[MANUAL.md](MANUAL.md)** is the full user guide — installation, the workflow
+page by page, every parameter with its default, the command line, and how to
+read the results honestly.
+
 ---
 
 ## Why this exists
