@@ -140,7 +140,7 @@ def _identify(parts: list[str], stop: int, fallback: str) -> tuple[str, str]:
 
 
 def _looks_temporal(token: str) -> bool:
-    """True for ``2024-06-17`` or ``22:49:39`` style tokens."""
+    """True for ``2024-01-05`` or ``14:30:00`` style tokens."""
     return bool(re.fullmatch(
         r"\d{2,4}[-/]\d{1,2}[-/]\d{1,4}|\d{1,2}:\d{2}(:\d{2})?", token))
 
